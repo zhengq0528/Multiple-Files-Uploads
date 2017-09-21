@@ -1,0 +1,157 @@
+body {
+	margin: 0 auto;
+	background-color:#ffffff;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 12px;
+}
+h1 {
+	font-size:32px;
+	margin-top:0px;
+}
+#bigUpload .container {
+	max-width: 800px;
+	padding: 20px 30px 30px;
+	margin: 0 auto 20px;
+	margin-top:75px;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	text-align: center;
+}
+
+#bigUpload .file {
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}
+
+.zipname {
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}
+
+#bigUpload #file {
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}
+#bigUpload .button {
+	background-color: rgb(0, 109, 204);
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	border-radius:6px;
+	padding-bottom: 11px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 11px;
+	font-size: 18px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-top:15px;
+	font-size: 18px;
+}
+#bigUpload .abort {
+	background-color:rgb(218, 79, 73);
+}
+
+#bigUpload .progressBarContainer {
+	width:94%;
+	height:19px;
+	margin-left: 3%;
+	margin-top:1%;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	border-radius: 6px;
+}
+
+#bigUpload #progressBarContainer {
+	width:94%;
+	height:19px;
+	margin-left: 3%;
+	margin-top:1%;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	border-radius: 6px;
+}
+
+#bigUpload .progressBarFilled {
+	border-radius: 5px;
+	margin: 1px;
+	height:17px;
+	width:0;
+	background-color: rgb(91, 183, 91);
+	font-size: 14px;
+}
+#bigUpload #progressBarFilled {
+	border-radius: 5px;
+	margin: 1px;
+	height:17px;
+	width:0;
+	background-color: rgb(91, 183, 91);
+	font-size: 14px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
